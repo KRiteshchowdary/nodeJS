@@ -27,7 +27,7 @@
     - EX:- const {variable1,function1} = require("filePATH")
 
 
-- Common JS6 Modules ( File extension must be .mjs )
+- JS6 Modules ( File extension must be .mjs )
 
   - Default Exports
     - export default
@@ -40,6 +40,6 @@
     Can export multiple items
     
   - Importing Modules
-    - import item from "filePATH"
+    - import item from "filePATH.mjs"
       EX:- import {item1,item2} from "filepath"
     Can import multiple items
